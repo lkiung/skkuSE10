@@ -1,0 +1,6 @@
+D:\Documents\Visual Studio 2013\Projects\HAS\HomeworkAlertSystem\bin\HomeworkAlertSystem.dll.config
+D:\Documents\Visual Studio 2013\Projects\HAS\HomeworkAlertSystem\bin\HomeworkAlertSystem.dll
+D:\Documents\Visual Studio 2013\Projects\HAS\HomeworkAlertSystem\bin\HomeworkAlertSystem.pdb
+D:\Documents\Visual Studio 2013\Projects\HAS\HomeworkAlertSystem\obj\Release\HomeworkAlertSystem.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\HAS\HomeworkAlertSystem\obj\Release\HomeworkAlertSystem.dll
+D:\Documents\Visual Studio 2013\Projects\HAS\HomeworkAlertSystem\obj\Release\HomeworkAlertSystem.pdb

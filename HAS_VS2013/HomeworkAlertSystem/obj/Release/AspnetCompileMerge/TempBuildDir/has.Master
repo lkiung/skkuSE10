@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="has.master.cs" Inherits="HomeworkAlertSystem.has" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>성균관대학교 - SKKU - Homework Alert System (HAS)</title>
+    <link rel="stylesheet" type="text/css" href="/css/has.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="logo flali">
+                <img src="/img/topLogo_g.png" alt="성균관대학교 - SKKU" />
+            </div>
+            <div class="haslogo">
+                Homework Alert System (HAS)
+            </div>
+            <div class="menu">
+                <ul class="frali">
+                    <li>
+                        <asp:LinkButton ID="LinkButtonHome" runat="server" OnClick="LinkButtonHome_Click">
+                            <img src="img/home.png" alt="집" title="집" class="home" />
+                        </asp:LinkButton>
+                    </li>
+                    <li>|</li>
+                    <li><asp:LinkButton ID="LinkButtonLogout" runat="server" OnClick="LinkButtonLogout_Click">로그아웃</asp:LinkButton></li>
+                </ul>
+            </div>
+        </div>
+        <div class="headerspace"></div>
+        <div class="contentwrap">
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="footer">
+            ICE3041-41 - 그럽 10
+        </div>
+    </form>
+</body>
+</html>

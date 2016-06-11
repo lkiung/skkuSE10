@@ -1,0 +1,110 @@
+﻿body { font-family: Helvetica, Arial, Sans-Serif; }
+.cbox {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 460px;
+    height: 460px;
+    margin-top: -230px;
+    margin-left: -230px;
+    background-image: url("/img/logo_skku.gif");
+}
+
+.lbox {
+    border: 1px solid #CCC;
+    background-color: rgba(204,204,204,0.5);
+    padding: 5px 5px;
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    width: 460px;
+    height: 120px;
+    margin-top: -60px;
+    margin-left: -230px;
+}
+
+.flali { float: left; }
+.frali { float: right; }
+.rali { text-align: right; }
+.cali { text-align: center; }
+
+.header { 
+    margin: 0 auto; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.logo {
+    width: 295px;
+    height: 49px;
+}
+.haslogo { 
+    width: 500px;
+    font-size: x-large;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu { 
+}
+.menu ul { margin: 0px; }
+.menu ul li { 
+    display: table-cell;
+    list-style-type: none;
+    vertical-align: middle;
+    text-align: right;
+}
+.menu ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+.home {
+    width: 30px;
+    height: 30px;
+}
+.headerspace { height: 100px; }
+.contentwrap {
+    margin: 0 auto; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.dummy { height: 600px; width: 1px; }
+
+/* content stuff */
+.content { width: 100%; }
+.repeater td a { 
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.repeater { width: 100%; border-collapse: collapse; }
+.rtitle { width: 100%; border-bottom: 2px double #000; font-size: x-large; font-weight: bold; }
+.hl:hover { background-color: #CFCFCF; }
+.nohl:hover { background-color: transparent; }
+.repeater td a:hover { text-decoration: underline; }
+.tcolvalue { border-bottom: 2px double #000; }
+.rcolvalue { border-top: 1px solid #CCC; }
+.delete { width: 20px; height: 20px; }
+.edit { width: 20px; height: 20px; }
+.new { width: 20px; height: 20px; }
+.send { width: 20px; height: 20px; }
+.selectedRow { background-color: #82c8ff; }
+.titledisplay td { font-weight: bold; color: black; text-decoration: none; }
+
+.fw { width: 100%; border-collapse: collapse; }
+.fw tr { border-top: 1px solid #CCC; }
+.fwtitle { border-top: none!important; border-bottom: 2px double #000; }
+.fwtitle td { font-size: x-large; font-weight: bold; }
+.fwrowtitle {}
+.fwrowvalue {}
+
+.alerting { width: 128px; }
+.status { width: 15px; height: 15px; }
+.sent { color: red; }
+
+.footer { text-align: center; }
